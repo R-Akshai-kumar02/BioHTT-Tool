@@ -2,7 +2,7 @@ Bio-HTT Tool
 
 About the Tool:
 
-BioHTT (Bioactivity Prediction for HTT Protein)is a machine learning based web application developed to predict whether a chemical compound is active or inactive against the Huntingtin (HTT) protein. The tool is designed to support early-stage drug discovery by providing a fast and user-friendly method for screening compounds based on their molecular structure.
+BioHTT (Bioactivity Prediction for HTT Protein)is a machine learning based web application developed to predict whether a chemical compound is active or inactive against the Huntingtin (HTT) protein while calculating their key QSAR (Quantitative Structure–Activity Relationship) properties. The tool is designed to support early-stage drug discovery by providing a fast and user-friendly method for screening compounds based on their molecular structure.
 
 Users can enter the SMILES notation of a compound, and the application converts it into Morgan fingerprints (ECFP4, 2048 bits) using RDKit. These molecular fingerprints are then processed by a trained Random Forest classification model to predict the compound's activity against the HTT protein.
 
@@ -34,7 +34,9 @@ Workflow:
 
 4)The tool predicts whether the compound is Active or Inactive against the HTT protein.
 
-5)The prediction and confidence score are displayed to the user.
+5) calculating their key QSAR (Quantitative Structure–Activity Relationship) properties
+
+6)The prediction and confidence score are displayed to the user.
 
 Technologies Used
 
