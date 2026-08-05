@@ -4,5 +4,4 @@ numpy
 scikit-learn
 rdkit
 joblib
-Chem
 
