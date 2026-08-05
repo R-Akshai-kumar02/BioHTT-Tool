@@ -7,10 +7,8 @@
 import pandas as pd
 import numpy as np
 from rdkit import Chem
-from rdkit.Chem import Draw
 from rdkit.Chem import AllChem
 from rdkit.Chem import Descriptors
-from rdkit.Chem import PandasTools
 from rdkit import DataStructs
 
 
